@@ -1,0 +1,40 @@
+
+
+For my Phase 2 project I created an art portfolio using create-react-app and a db.json I compiled
+listing out drawings, an id, and a path to the image stored in the Public Folder within the Assets 
+subfolder. 
+
+The routing uses React Router version 6. 
+
+This project runs on http://localhost:3001, and the db.json runs on http://localhost: 3000.
+
+The page included five routes that let a navigate to:
+Home 
+About
+Drawings
+Photos
+Contact
+
+The content in each is minimal, but serves as a template for an online portfolio.
+
+The Components for this project are
+Home 
+About
+Drawings
+ArtCard
+ArtList
+Photos
+Contact
+
+
+App.js is in the src folder, it contains the routes and the NavBar.
+
+I detailed the use of each component with comments within each componenet, but an overview is that 
+the data is pulled in with a GET request in the Drawings component, which is the container for all of 
+the drawings. The data is mapped out in the ArtList component and displayed in the ArtCard Component.
+The ArtCard componenet imports an index.css file for styling elements.
+The Contact form contains an artists contact information, as well as a form for a user to submit
+a request for a commission. This form uses POST to add the data to a nested data list on the db.json called "contact." When the user successfully sends a comment a message appears to let them know they've successfully submitted their requuest.
+
+
+

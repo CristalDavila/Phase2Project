@@ -1,0 +1,98 @@
+* {
+  margin: 10px;
+  font-family: cursive;
+
+}
+
+.navbar-title {
+  font-size: 110px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 5cm;
+  ;
+
+}
+
+.navbar-nav {
+  font-size: xx-large;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+
+
+}
+
+.navbar-image {
+  width: 150px;
+  height: 200px;
+  margin-right: auto;
+  display: block;
+  padding-left: 2cm;
+
+}
+
+.nav-link {
+  margin-right: 150px;
+}
+
+body {
+  padding: 10rem;
+  background-color: antiquewhite;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.spacing {
+  padding: 50px;
+  font-weight: bold;
+}
+
+
+img {
+  object-fit: cover;
+  border-radius: 25px;
+  width: 1000px;
+  height: 950px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.ArtCard {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.art-card-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+.art-card-title {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  background-color: whitesmoke;
+  padding: 5px 10px;
+}
+
+.ArtCard:hover .art-card-title {
+  opacity: 1;
+}

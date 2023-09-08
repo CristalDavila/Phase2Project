@@ -1,0 +1,102 @@
+{
+  "drawings": [
+    {
+      "id": 1,
+      "title": "Bunny and Flowers",
+      "image": "./assets/bunbun.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Raven",
+      "image": "./assets/corvid1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Ca-Kaw!",
+      "image": "./assets/corvid2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Faun",
+      "image": "./assets/faun.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Faun Detail",
+      "image": "./assets/faundetail.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Fish and Skull",
+      "image": "./assets/fishandskull.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Fox",
+      "image": "./assets/fox.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Fox and Butterfly",
+      "image": "./assets/foxandbutterfly.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Frogge",
+      "image": "./assets/frogge.jpg"
+    },
+    {
+      "id": 10,
+      "title": "German Castle Illustration",
+      "image": "./assets/germancastle.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Valentine's Day- NAH.",
+      "image": "./assets/nah.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Rabbit and Flower-Moon",
+      "image": "./assets/rabbitmoon.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Rat!",
+      "image": "./assets/rat.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Skeleton",
+      "image": "./assets/skeletonanimal.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Sloooonky Cheetah",
+      "image": "./assets/slonkycheetah.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Titania",
+      "image": "./assets/titania.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Whale Illustration",
+      "image": "./assets/whale.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Sketch of a Botticelli Portrait",
+      "image": "./assets/botticellicopy.jpg"
+    }
+  ],
+  "Contact": [
+    {
+      "id": 1,
+      "name": "your name",
+      "request": "your request",
+      "timeframe": "your timeframe"
+    }
+  ]
+}
